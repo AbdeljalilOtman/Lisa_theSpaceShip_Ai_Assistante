@@ -8,7 +8,7 @@ import httpx
 import json
 
 # OpenRouter API Configuration (Free models available)
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = ""
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # Try to import ollama as fallback, but don't fail if it's not available
